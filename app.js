@@ -19,7 +19,7 @@ connecttomongo();
 
 app.use(express.json());
 app.get("/", (req, res) => {
-  res.send("Transcribe server is running... ");
+  res.send("NurtureEats server is running... ");
 });
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
